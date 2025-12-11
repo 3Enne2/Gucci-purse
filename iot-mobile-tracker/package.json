@@ -1,0 +1,39 @@
+{
+  "name": "iot-mobile-tracker",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.932.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.932.0",
+    "@aws-sdk/signature-v4": "^3.370.0",
+    "aws-signature-v4": "^1.4.0",
+    "crypto-js": "^4.2.0",
+    "expo": "~54.0.23",
+    "expo-battery": "^10.0.7",
+    "expo-location": "^19.0.7",
+    "expo-sensors": "^15.0.7",
+    "expo-status-bar": "~3.0.8",
+    "mqtt": "^5.14.1",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-ble-plx": "^3.5.0",
+    "react-native-get-random-values": "~1.11.0",
+    "react-native-maps": "1.20.1",
+    "react-native-url-polyfill": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^0.0.42",
+    "@types/crypto-js": "^4.2.2",
+    "@types/react": "~19.1.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}

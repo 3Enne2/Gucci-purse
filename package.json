@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.932.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.932.0",
+    "@aws-sdk/protocol-http": "^3.370.0",
+    "@aws-sdk/signature-v4": "^3.370.0",
+    "crypto-js": "^4.2.0",
+    "mqtt": "^5.14.1"
+  }
+}
